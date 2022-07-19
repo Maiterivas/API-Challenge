@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 #config file
-config.py
+api_keys.py
