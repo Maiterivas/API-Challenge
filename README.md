@@ -1,5 +1,6 @@
 # Python-API-Challenge
 
+This activity consisted of two parts with OpenWeather API, Google Maps API, and a basic Python library - CityPy. The main goals were to find relationships between latitude and different weather variables, as well as finding an ideal place to vacation with the best weather and a hotel to stay at.
 
 ## Part 1: WeatherPy
 
@@ -10,15 +11,60 @@ For the first part, I was asked to create a script to analyze and visualize the 
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-Before delving into the results and visualizations of my analysis of the cities found, there were a few important limitations regarding the dataset to address. Mainly, the PyCity library used does not have much documentation regarding it, so I am unable to find much information on it. However, based off the number of cities retrieved, it's likely not inclusive of all the existing cities in the world. Based off the number of cities I was able to successfully retrieve weather data for, these only make up about 5% of all cities in the world, so we cannot assume that conclusions found based off the results in this dataset would be applicable to locations outside of it. 
+Before delving into the results and visualizations of my analysis of the cities found, there was an important limitation regarding the dataset to address. The PyCity library used does not have much documentation regarding it, so I am unable to find much information on it. However, based off the number of cities retrieved, it's not inclusive of all the cities in the world. Tthe number of cities I was able to successfully retrieve weather data for only make up about 5% of all cities in the world, so we cannot assume that conclusions found based off the results in this dataset would be applicable to locations outside of it. 
+
 
 **City Temperature (F) versus Latitude**
 
+<img src="WeatherPy/Resources/Lat_vs_Max_Temp.png" alt="City Temp vs Lat" width="400">
+
 **City Humidity (%) versus Latitude**
+
+<img src="WeatherPy/Resources/Lat_vs_Humidity.png" alt="City Humidity vs Lat" width="400">
 
 **City Cloudiness (%) versus Latitude**
 
+<img src="WeatherPy/Resources/Lat_vs_Cloudiness.png" alt="City Cloudiness vs Lat" width="400">
+
 **City Wind Speed (mph) versus Latitude**
+
+<img src="WeatherPy/Resources/Lat_vs_Wind_Speed.png" alt="City Wind Speed vs Lat" width="400">
+
+### Northern Hemisphere (above the equator)
+
+**City Temperature (F) versus Latitude**
+
+<img src="WeatherPy/Resources/North_Lat_vs_Max_Temp.png" alt="N City Temp vs Lat" width="400">
+
+**City Humidity (%) versus Latitude**
+
+<img src="WeatherPy/Resources/North_Lat_vs_Humidity.png" alt="N City Humidity vs Lat" width="400">
+
+**City Cloudiness (%) versus Latitude**
+
+<img src="WeatherPy/Resources/North_Lat_vs_Cloudiness.png" alt="N City Cloudiness vs Lat" width="400">
+
+**City Wind Speed (mph) versus Latitude**
+
+<img src="WeatherPy/Resources/North_Lat_vs_Wind_Speed.png" alt="N City Wind Speed vs Lat" width="400">
+
+### Southern Hemisphere (below the equator)
+
+**City Temperature (F) versus Latitude**
+
+<img src="WeatherPy/Resources/South_Lat_vs_Max_Temp.png" alt="S City Temp vs Lat" width="400">
+
+**City Humidity (%) versus Latitude**
+
+<img src="WeatherPy/Resources/South_Lat_vs_Humidity.png" alt="S City Humidity vs Lat" width="400">
+
+**City Cloudiness (%) versus Latitude**
+
+<img src="WeatherPy/Resources/South_Lat_vs_Cloudiness.png" alt="S City Cloudiness vs Lat" width="400">
+
+**City Wind Speed (mph) versus Latitude**
+
+<img src="WeatherPy/Resources/South_Lat_vs_Wind_Speed.png" alt="S City Wind Speed vs Lat" width="400">
 
 
 *See [WeatherPy]("WeatherPy/WeatherPy.ipynb") code
