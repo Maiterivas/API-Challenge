@@ -32,7 +32,7 @@ In the second part, I was asked to analyze the dataset of cities and weather fro
 
 Then, I was asked to find the city with the most ideal weather conditions for vacation. In order to do this, I had to use the cities and weather found in Part 1, and then filter those cities down to the ones with ideal weather conditions. In this case, this meant that the city's weather should be: maximum temperature lower than 80 degrees but higher than 70, with a wind speed less than 10 mph, and zero cloudiness. I did this by filtering the data with loc and performing multiple operations, and then I dropped any other cities that didn't satisfy all desired weather conditions for vacation. Next, I was asked to find a hotel within 5000 meters for each city with ideal weather conditions for vacation, and then add a marker on the map with its name and information. 
 
-<img src="VacationPy/Resources/Danceability_vs_Energy.png" alt="Danceability vs. Energy Scatter Plot" width="400">
+<img src="VacationPy/Resources/hotel_markers_screenshot.png" alt="Ideal Weather Cities & Hotels" width="400">
 
 The second part of the homework was really fun to do, and out of the 500+ cities that were analyzed, less than 30 had ideal weather conditions for vacationing. Still, this includes plenty of choices of places to go and explore with some of the best weather around the world. I could see a use of this in future opportunities such as generating my own application or database that needs to regularly search for different kinds of information.
 
