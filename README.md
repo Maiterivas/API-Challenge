@@ -10,7 +10,7 @@ For the first part, I was asked to create a script to analyze and visualize the 
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-Before delving into the results and visualizations of my analysis of the cities found, there were a few important limitations regarding the dataset to address. Mainly, the PyCity library used does not have much documentation regarding it, so I am unable to find much information on it. However, based off the number of cities retrieved, it's likely not inclusive of all the existing cities in the world. Based off the number of cities I was able to successfully retrieve weather data for, these only make up about 5% of all cities in the world, so we cannot assume that conclusions found on this dataset would be applicable to locations outside of it.
+Before delving into the results and visualizations of my analysis of the cities found, there were a few important limitations regarding the dataset to address. Mainly, the PyCity library used does not have much documentation regarding it, so I am unable to find much information on it. However, based off the number of cities retrieved, it's likely not inclusive of all the existing cities in the world. Based off the number of cities I was able to successfully retrieve weather data for, these only make up about 5% of all cities in the world, so we cannot assume that conclusions found based off the results in this dataset would be applicable to locations outside of it.
 
 *See [WeatherPy]("WeatherPy/WeatherPy.ipynb") code
 
